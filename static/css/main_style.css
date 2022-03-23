@@ -1,10 +1,13 @@
 body {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
+    align-items: center;
     width: 100%;
     height: 100vh;
     margin: 0;
+    padding: 0;
     flex-direction: column;
+    background-color: #FFFFFF;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -16,38 +19,217 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    height: 100px;
+    width: 90%;
+    height: 50px;
+    margin: 60px 0 0 370px;
 }
 
 .logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 230px;
 }
 
-.logo a{
+.logo a {
     text-decoration: none;
     color: black;
+}
+
+.logo a span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .links {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 350px;
+    width: 600px;
     height: 40px;
 }
 
-.products{
+.products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.products a {
+    text-decoration: none;
+    color: black;
+}
+
+.products a span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price a {
+    text-decoration: none;
+    color: black;
+}
+
+.price a span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.security {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.security a {
+    text-decoration: none;
+    color: black;
+}
+
+.security a span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.resources {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resources a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+    width: 160px;
+}
+
+.resources a span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .log_lang_srh {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 300px;
+    width: 400px;
     height: 40px;
 }
+
+.log_out {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 55px;
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 130px;
+}
+
+.lang span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.inp_srh input {
+    display: none;
+}
+
+/*content*/
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    height: 400px;
+    margin-top: 150px;
+}
+
+.txt1 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.txt2 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #007DFB;
+}
+
+.get_start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 335px;
+    height: 125px;
+    border-radius: 62px;
+    background-color: #007DFB;
+    margin: 200px 0 0 600px;
+}
+
+.get_start span{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 220px;
+    font-size: 30px;
+    font-family: Libre Franklin, sans-serif;
+    color: white;
+}
+
